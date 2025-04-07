@@ -47,7 +47,7 @@
     <p>&copy; 2025 語学マニアのガジェ部屋</p>
   </footer>
 </body>
-</html>/* 全体共通スタイル */
+</html>
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
@@ -56,7 +56,6 @@ body {
   line-height: 1.6;
 }
 
-/* ヘッダー */
 header {
   background: linear-gradient(to right, #1e3a8a, #2563eb);
   color: white;
@@ -71,7 +70,6 @@ header h1 {
   letter-spacing: 2px;
 }
 
-/* ナビゲーション */
 nav ul {
   list-style: none;
   padding: 0;
@@ -93,7 +91,6 @@ nav a:hover {
   color: #c7d2fe;
 }
 
-/* ヒーローセクション */
 .hero {
   background-color: #3b82f6;
   color: white;
@@ -112,7 +109,6 @@ nav a:hover {
   opacity: 0.9;
 }
 
-/* 記事一覧 */
 .latest-posts {
   padding: 50px 20px;
   max-width: 1000px;
@@ -160,7 +156,6 @@ article a {
   font-weight: bold;
 }
 
-/* フッター */
 footer {
   text-align: center;
   padding: 20px;
